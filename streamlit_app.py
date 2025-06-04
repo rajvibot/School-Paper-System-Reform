@@ -41,5 +41,7 @@ return df
 
 Run
 
-if st.button("Calculate"): result_df = compute_usage() st.dataframe(result_df.style.format({"Cost (INR)": "₹{:.2f}"})) st.success("Done! Scroll below to see your breakdown.")
+if st.button("Calculate"): result_df = compute_usage() 
+  st.dataframe(result_df.style.format({"Cost (INR)": "₹{:.2f}"})) 
+  st.success("Done! Scroll below to see your breakdown.")
 
