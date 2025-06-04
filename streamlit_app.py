@@ -42,7 +42,14 @@ def compute_usage():
 
 #Run
 
-if st.button("Calculate"): result_df = compute_usage() 
-st.dataframe(result_df.style.format({"Cost (INR)": "₹{:.2f}"})) 
-st.success("Done! Scroll below to see your breakdown.")
+#if st.button("Calculate"): result_df = compute_usage() 
+#st.dataframe(result_df.style.format({"Cost (INR)": "₹{:.2f}"})) 
+#st.success("Done! Scroll below to see your breakdown.")
 
+if st.button("Calculate"):
+    try:
+        result_df = compute_usage()
+        st.dataframe(result_df.style.format({"Cost (INR)": "₹{:.2f}"}))
+        st.success("Done! Scroll below to see your breakdown.")
+    except Exception as e:
+        st.error(f"Something went wrong: {e}")
