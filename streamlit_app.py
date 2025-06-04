@@ -37,7 +37,7 @@ df = pd.DataFrame(list(data.items()), columns=["Category", "Sheets Used"])
 df["Cost (INR)"] = df["Sheets Used"] * cost_per_sheet 
 total = pd.DataFrame([{"Category": "TOTAL", "Sheets Used": df["Sheets Used"].sum(), "Cost (INR)": df["Cost (INR)"].sum()}]) 
 df = pd.concat([df, total], ignore_index=True) 
-return df
+ return df
 
 Run
 
