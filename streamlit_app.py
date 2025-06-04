@@ -51,11 +51,8 @@ if st.button("Calculate"):
         result_df = compute_usage()
         st.dataframe(result_df.style.format({"Cost (INR)": "₹{:.2f}"}))
         st.success("Done! Scroll below to see your breakdown.")
-    except Exception as e:
-        st.error(f"Something went wrong: {e}")
-
-# Suggestions based on key categories
-     st.markdown("### 🌱 Suggested Reforms")
+        # Suggestions based on key categories
+        st.markdown("### 🌱 Suggested Reforms")
         if result_df.loc[result_df['Category'] == "Worksheets", "Sheets Used"].values[0] > 50000:
             st.write("📚 Too many worksheets? Consider switching to double-sided or recycled paper. Or go compostable weekly packets.")
         if result_df.loc[result_df['Category'] == "Homework", "Sheets Used"].values[0] > 50000:
