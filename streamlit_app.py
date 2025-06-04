@@ -30,7 +30,7 @@ gift_kits = st.slider("Gift/stationery kits per year", 0, 500, value=100)
 forms_per_student = st.slider("Finance/permission forms per student", 0, 10, value=3) 
 cost_per_sheet = st.number_input("Cost per sheet (INR, incl. ink)", value=1.5, step=0.1)
 
-Calculation
+#Calculation
 
 def compute_usage(): 
  data = { "Assessments": students * exams_per_year * 2, "Worksheets": students * worksheets_per_week * weeks_per_year, "Homework": students * homework_per_week * weeks_per_year, "Circulars & Communication": students * circulars_per_week * weeks_per_year, "Admin (Teacher use)": teachers * admin_docs_per_teacher_weekly * weeks_per_year, "Student Records": students * records_per_student, "Events & Certificates": events_per_year * (certificates_per_event + posters_forms_per_event), "Teacher Notes": teachers * teacher_pages_per_week * weeks_per_year, "Arts & Crafts": students * art_projects_per_month * months_per_year, "Labels & Stickers": students * tags_per_student + events_per_year * tags_per_event, "Packaging & Gifting": gift_kits, "Finance & Docs": students * forms_per_student, } 
