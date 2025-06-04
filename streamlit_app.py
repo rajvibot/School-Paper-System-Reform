@@ -1,14 +1,34 @@
-import streamlit as st import pandas as pd
+import streamlit as st 
+import pandas as pd
 
-st.set_page_config(page_title="School Paper Usage Calculator", layout="centered") st.title("📄 School Paper Usage & Cost Estimator")
+st.set_page_config(page_title="School Paper Usage Calculator", layout="centered") 
+st.title("📄 School Paper Usage & Cost Estimator")
 
 st.markdown(""" This calculator estimates how much paper a school uses in a year, and how much it could cost — based on your input values. """)
 
 Input fields
 
-students = st.number_input("Number of students", value=1000, step=50) teachers = st.number_input("Number of teachers", value=40, step=5) weeks_per_year = st.number_input("Active school weeks per year", value=40) months_per_year = st.number_input("Academic months per year", value=10)
+students = st.number_input("Number of students", value=1000, step=50) 
+teachers = st.number_input("Number of teachers", value=40, step=5) 
+weeks_per_year = st.number_input("Active school weeks per year", value=40) 
+months_per_year = st.number_input("Academic months per year", value=10)
 
-exams_per_year = st.slider("Exams per year per student", 1, 10, value=6) worksheets_per_week = st.slider("Worksheets per student per week", 0, 5, value=2) homework_per_week = st.slider("Homework per student per week", 0, 5, value=2) circulars_per_week = st.slider("Printed circulars per student per week", 0, 5, value=1) admin_docs_per_teacher_weekly = st.slider("Admin sheets per teacher per week", 0, 10, value=5) records_per_student = st.slider("Student records stored on paper", 0, 10, value=5) certificates_per_event = st.slider("Certificates per school event", 0, 500, value=200) posters_forms_per_event = st.slider("Posters/forms per event", 0, 100, value=50) events_per_year = st.slider("School events per year", 0, 30, value=10) teacher_pages_per_week = st.slider("Teacher lesson printouts/week", 0, 20, value=10) art_projects_per_month = st.slider("Arts/crafts projects per student per month", 0, 5, value=1) tags_per_student = st.slider("Labels per student (name, files etc.)", 0, 5, value=2) tags_per_event = st.slider("Labels per event (ID cards etc.)", 0, 200, value=100) gift_kits = st.slider("Gift/stationery kits per year", 0, 500, value=100) forms_per_student = st.slider("Finance/permission forms per student", 0, 10, value=3) cost_per_sheet = st.number_input("Cost per sheet (INR, incl. ink)", value=1.5, step=0.1)
+exams_per_year = st.slider("Exams per year per student", 1, 10, value=6) 
+worksheets_per_week = st.slider("Worksheets per student per week", 0, 5, value=2) 
+homework_per_week = st.slider("Homework per student per week", 0, 5, value=2) 
+circulars_per_week = st.slider("Printed circulars per student per week", 0, 5, value=1) 
+admin_docs_per_teacher_weekly = st.slider("Admin sheets per teacher per week", 0, 10, value=5) 
+records_per_student = st.slider("Student records stored on paper", 0, 10, value=5) 
+certificates_per_event = st.slider("Certificates per school event", 0, 500, value=200) 
+posters_forms_per_event = st.slider("Posters/forms per event", 0, 100, value=50) 
+events_per_year = st.slider("School events per year", 0, 30, value=10) 
+teacher_pages_per_week = st.slider("Teacher lesson printouts/week", 0, 20, value=10) 
+art_projects_per_month = st.slider("Arts/crafts projects per student per month", 0, 5, value=1) 
+tags_per_student = st.slider("Labels per student (name, files etc.)", 0, 5, value=2) 
+tags_per_event = st.slider("Labels per event (ID cards etc.)", 0, 200, value=100) 
+gift_kits = st.slider("Gift/stationery kits per year", 0, 500, value=100) 
+forms_per_student = st.slider("Finance/permission forms per student", 0, 10, value=3) 
+cost_per_sheet = st.number_input("Cost per sheet (INR, incl. ink)", value=1.5, step=0.1)
 
 Calculation
 
