@@ -6,7 +6,7 @@ st.title("📄 School Paper Usage & Cost Estimator")
 
 st.markdown(""" This calculator estimates how much paper a school uses in a year, and how much it could cost — based on your input values. """)
 
-Input fields
+#Inputfields
 
 students = st.number_input("Number of students", value=1000, step=50) 
 teachers = st.number_input("Number of teachers", value=40, step=5) 
