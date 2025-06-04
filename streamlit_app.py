@@ -34,7 +34,8 @@ Calculation
 
 def compute_usage(): data = { "Assessments": students * exams_per_year * 2, "Worksheets": students * worksheets_per_week * weeks_per_year, "Homework": students * homework_per_week * weeks_per_year, "Circulars & Communication": students * circulars_per_week * weeks_per_year, "Admin (Teacher use)": teachers * admin_docs_per_teacher_weekly * weeks_per_year, "Student Records": students * records_per_student, "Events & Certificates": events_per_year * (certificates_per_event + posters_forms_per_event), "Teacher Notes": teachers * teacher_pages_per_week * weeks_per_year, "Arts & Crafts": students * art_projects_per_month * months_per_year, "Labels & Stickers": students * tags_per_student + events_per_year * tags_per_event, "Packaging & Gifting": gift_kits, "Finance & Docs": students * forms_per_student, } 
 df = pd.DataFrame(list(data.items()), columns=["Category", "Sheets Used"]) 
-df["Cost (INR)"] = df["Sheets Used"] * cost_per_sheet total = pd.DataFrame([{"Category": "TOTAL", "Sheets Used": df["Sheets Used"].sum(), "Cost (INR)": df["Cost (INR)"].sum()}]) 
+df["Cost (INR)"] = df["Sheets Used"] * cost_per_sheet 
+total = pd.DataFrame([{"Category": "TOTAL", "Sheets Used": df["Sheets Used"].sum(), "Cost (INR)": df["Cost (INR)"].sum()}]) 
 df = pd.concat([df, total], ignore_index=True) 
 return df
 
