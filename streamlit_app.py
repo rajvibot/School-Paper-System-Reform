@@ -53,3 +53,19 @@ if st.button("Calculate"):
         st.success("Done! Scroll below to see your breakdown.")
     except Exception as e:
         st.error(f"Something went wrong: {e}")
+
+# Suggestions based on key categories
+     st.markdown("### 🌱 Suggested Reforms")
+        if result_df.loc[result_df['Category'] == "Worksheets", "Sheets Used"].values[0] > 50000:
+            st.write("📚 Too many worksheets? Consider switching to double-sided or recycled paper. Or go compostable weekly packets.")
+        if result_df.loc[result_df['Category'] == "Homework", "Sheets Used"].values[0] > 50000:
+            st.write("🏠 High homework paper usage? Encourage digital upload or rotating group books.")
+        if result_df.loc[result_df['Category'] == "Events & Certificates", "Sheets Used"].values[0] > 2000:
+            st.write("🎉 Large event waste? Use eco-certificates and projector-based recognition.")
+        if result_df.loc[result_df['Category'] == "Circulars & Communication", "Sheets Used"].values[0] > 20000:
+            st.write("📣 Switch to digital/WhatsApp circulars for day-to-day communication.")
+        if result_df.loc[result_df['Category'] == "Teacher Notes", "Sheets Used"].values[0] > 10000:
+            st.write("🧑‍🏫 Too many lesson prints? Try reusable planning boards or shared digital notebooks.")
+
+    except Exception as e:
+        st.error(f"Something went wrong: {e}")
