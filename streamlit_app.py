@@ -74,7 +74,30 @@ if st.button("Calculate"):
     except Exception as e:
         st.error(f"Something went wrong: {e}")
 
+import random
+
+eco_hacks = [
+    "Wrap gifts in old calendars and tag them: ‘This was going to the bin.’",
+    "Your rejected resume = journaling gold.",
+    "Every eco-thing you don’t buy is greener than the one you do.",
+    "This jar held trauma. Now it holds sugar.",
+    "Label your plants after your exes. Let them grow this time.",
+    "Compost my feelings log: What are you ready to rot today?",
+    "Stitch the thing you couldn’t say. Tears optional.",
+    "‘Didn’t buy it.’ Still hot.",
+    "Made from trash. What’s your excuse?",
+           ]
+
+st.markdown("### 💬 Community Reform Wall")
+st.write("Real ideas. Gremlin genius. Submit your own below!")
+st.info(random.choice(eco_hacks))
+if st.button("Shuffle Wall Quote"):
+    st.rerun()
+
 suggestion = st.text_input("📩 Have an idea for school reform? Type it here:")
 if suggestion:
          st.write("✅ Thank you for your idea! It’ll be compiled in our reform list.")
          #(Later you can add a Google Sheet or save to GitHub)
+user_idea = st.text_input("🧠 Got an idea for eco reform? Drop it here:")
+
+
