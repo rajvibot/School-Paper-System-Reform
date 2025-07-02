@@ -115,11 +115,6 @@ def compute_usage():
 #st.dataframe(result_df.style.format({"Cost (INR)": "₹{:.2f}"})) 
 #st.success("Done! Scroll below to see your breakdown.")
 
-st.markdown("""
----
-💡 **Know a school that should see this?**
-[Click to copy this link](https://school-paper-system-reform.streamlit.app) and send it their way.
-""")
 
 if st.button("Calculate"):
     try:
@@ -142,6 +137,13 @@ if st.button("Calculate"):
          
     except Exception as e:
         st.error(f"Something went wrong: {e}")
+
+
+st.markdown("""
+---
+💡 **Know a school that should see this?**
+[Click to copy this link](https://school-paper-system-reform.streamlit.app) and send it their way.
+""")
 
 import random
 
