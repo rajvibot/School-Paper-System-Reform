@@ -136,24 +136,51 @@ if st.button("Calculate"):
 
 import random
 
-eco_hacks = [
-    "Wrap gifts in old calendars and tag them: ‘This was going to the bin.’",
-    "Your rejected resume = journaling gold.",
-    "Every eco-thing you don’t buy is greener than the one you do.",
-    "This jar held trauma. Now it holds sugar.",
-    "Label your plants after your exes. Let them grow this time.",
-    "Compost my feelings log: What are you ready to rot today?",
-    "Stitch the thing you couldn’t say. Tears optional.",
-    "‘Didn’t buy it.’ Still hot.",
-    "Made from trash. What’s your excuse?",
-           ]
+# All your micro eco rituals combined:
+eco_challenges = [
+    # Week 1
+    "🖤 Blackout a bad day — Turn a printed bill into poetry.",
+    "👑 Crown Yourself with Cardboard — Toilet roll = king energy.",
+    "🫙 Jar of Unsaid Things — Write what you wanted to say this week. Put it in your old coffee jar.",
+    "✉️ Envelope Your Regret — Print a template on scrap paper. Mail it to yourself.",
+    "👗 Wear Something That Still Works — Bonus if it’s from 2014.",
+    "🔖 Reframe That Item — Label a jar 'hope.' See what you put inside.",
+    "☕ Use the Ugly Mug — Romanticize the chipped one. It's you-coded.",
+    # Week 2
+    "📚 Leave a Note in a Bookstore Book — Write 'You’ll be okay' in the margins of capitalism.",
+    "🧵 Fix Something with Thread, Not Shame — Button, sock, bag strap. No one has to know.",
+    "🌱 Turn a Packet into a Planter — Maggi packet + mint sprout = kitchen redemption.",
+    "📝 Print on the Back of That Failed Resume — Give your failure a second job.",
+    "🌙 Draw a Moon on a Used Tissue — Tell her what you’re done with.",
+    "💌 Give a Compliment Instead of a Lecture — The earth wants joy, not guilt.",
+    "🔄 Upcycle a Conversation — Bring back an old dialogue. Ask it again, softer.",
+    # Week 3
+    "💃 Wear Something Just Because It Feels Like You — Not because it matches.",
+    "🧣 DIY a Scarf From a Saree Scrap — Or even a curtain. No one's watching.",
+    "🛍️ Make a 'Didn’t Buy' List — Feel proud. Not deprived.",
+    "🚫 Unfollow 3 Style Influencers Who Make You Want What You Don’t Need.",
+    "🏷️ Make a Label for Your Closet — 'This is not Zara. This is survival.'",
+    "🪞 Drape Yourself in Leftovers — Literally or metaphorically. Bonus: mirror selfie.",
+    "🎁 Gift Someone Something You Already Own — Make it feel sacred.",
+    # Week 4
+    "🌿 Plant a Spice You Actually Use — Basil, methi, ajwain — no pressure.",
+    "🪴 Compost a Memory — Write it, fold it, bury it in soil.",
+    "🗞️ Wrap a Gift in Old Newspaper — Add a line: 'This paper’s seen more than both of us.'",
+    "🪨 Repurpose a Plastic Container into an Altar — Add stone, flower, coin. Call it a vibe box.",
+    "🌳 Thank the Tree You Ignore — Yes, the one near your parking spot.",
+    "🚌 Romanticize a Bus Ride — Less emissions, more imagination.",
+    "🔄 Invent Your Own Ritual — Something soft, cyclical, yours.",
+    # Bonus
+    "📝 Buy Nothing Today. Write Instead.",
+    "🌍 Tell Someone Your Earth is Cutie Too."
+]
 
-##st.info(random.choice(eco_hacks))
+st.markdown("### ✨ Need a micro eco-reform challenge?")
+if st.button("🌿 Give me a challenge!"):
+    st.info(random.choice(eco_challenges))
 
-#st.markdown("### 💬 Community Reform Wall")
-##st.write("Real ideas. Gremlin genius. Submit your own below!")
-##if st.button("Shuffle Wall Quote"):
- ##   st.rerun()
+if st.button("Shuffle Wall Quote"):
+    st.rerun()
 
 #user_idea = st.text_input("🧠 Got an idea for eco reform? Drop it here:")
 #if user_idea:
