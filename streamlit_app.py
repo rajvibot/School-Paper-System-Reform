@@ -88,16 +88,94 @@ eco_hacks = [
     "Made from trash. What’s your excuse?",
            ]
 
-st.info(random.choice(eco_hacks))
+##st.info(random.choice(eco_hacks))
 
 st.markdown("### 💬 Community Reform Wall")
-st.write("Real ideas. Gremlin genius. Submit your own below!")
-if st.button("Shuffle Wall Quote"):
-    st.rerun()
+##st.write("Real ideas. Gremlin genius. Submit your own below!")
+##if st.button("Shuffle Wall Quote"):
+ ##   st.rerun()
 
 user_idea = st.text_input("🧠 Got an idea for eco reform? Drop it here:")
 if user_idea:
          st.write("✅ Thank you for your idea! It’ll be compiled in our reform list.")
          #(Later you can add a Google Sheet or save to GitHub)
 
+
+st.write
+(
+
+"## 🌱 Suggested School-Level Activities (for World Environment Day)
+
+---
+
+### ✍️ 1. **Plant-a-Paper Challenge**
+
+- Every student brings one used sheet from their bag
+- Writes: “What I want to grow in my life”
+- Tears it up, waters it in compost trays (or garden corners)
+- Bonus: Seed paper supplied = actual plants
+
+**Tagline:**
+
+> Let what you discard become what you grow.
+> 
+
+---
+
+### 🧠 2. **“Write & Water” Emotional Release Booth**
+
+- Quiet desk space with dissolvable ink (or plain paper)
+- Prompt: *“Write one thing you’re ready to let go of.”*
+- Drop it in a bowl of water
+- Watch it vanish
+
+**Works with:**
+
+- Teachers, teens, even parents
+- Journaling seed paper kits
+
+---
+
+### 🎨 3. **Craft-to-Plant Workshop**
+
+- Origami or bookmarks made from seed paper
+- Decorated with affirmations or gratitude notes
+- Kids take it home or plant it at school
+
+**Add-on:**
+
+- “This bookmark becomes basil.”
+
+---
+
+### 🌾 4. **From Test to Tulsi Ceremony**
+
+- Take one unused/discarded test sheet
+- Symbolically “compost” it in a small school pot
+- Add soil + seed + tag: “We learn. We grow.”
+- Bonus: Pick a common herb or flower (tulsi, marigold, coriander)
+
+---
+
+### 📣 5. **Eco Wall of Gremlin Joy™**
+
+- Students contribute eco-friendly hacks in their language
+- Add gremlin-style truths like:
+    - “Didn’t print the worksheet. Still passed.”
+    - “This journal page became a tomato.”
+    - “We plant what we waste.”
+
+---
+
+### 🪴 6. **Quiet Green Time**
+
+- No formal activity
+- Just students walking around their campus identifying:
+    - What could be reused
+    - Where something could be planted
+    - What emotions they want to compost
+
+**Prompt:**
+
+> “What part of school do you want to regrow differently?”")
 
