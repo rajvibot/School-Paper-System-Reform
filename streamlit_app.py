@@ -186,7 +186,7 @@ eco_challenges = [
     "🌍 Tell Someone Your Earth is Cutie Too."
 ]
 
-st.markdown("--- ### ✨ Need a micro eco-reform challenge?")
+st.markdown("### ✨ Need a micro eco-reform challenge?")
 if st.button("🌿 Give me a challenge!"):
     st.info(random.choice(eco_challenges))
 
