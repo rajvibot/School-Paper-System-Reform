@@ -94,10 +94,9 @@ st.info(random.choice(eco_hacks))
 if st.button("Shuffle Wall Quote"):
     st.rerun()
 
-suggestion = st.text_input("📩 Have an idea for school reform? Type it here:")
-if suggestion:
+user_idea = st.text_input("🧠 Got an idea for eco reform? Drop it here:")
+if user_idea:
          st.write("✅ Thank you for your idea! It’ll be compiled in our reform list.")
          #(Later you can add a Google Sheet or save to GitHub)
-user_idea = st.text_input("🧠 Got an idea for eco reform? Drop it here:")
 
 
