@@ -143,6 +143,7 @@ st.markdown("""
 ---
 💡 **Know a school that should see this?**
 [Click to copy this link](https://school-paper-system-reform.streamlit.app) and send it their way.
+---
 """)
 
 import random
