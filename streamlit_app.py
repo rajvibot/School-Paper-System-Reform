@@ -90,7 +90,7 @@ eco_hacks = [
 
 ##st.info(random.choice(eco_hacks))
 
-st.markdown("### 💬 Community Reform Wall")
+#st.markdown("### 💬 Community Reform Wall")
 ##st.write("Real ideas. Gremlin genius. Submit your own below!")
 ##if st.button("Shuffle Wall Quote"):
  ##   st.rerun()
