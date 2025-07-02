@@ -117,65 +117,53 @@ st.write
 
 "**Tagline:**"
 
-> Let what you discard become what you grow.
-> 
+"> Let what you discard become what you grow."
 
----
 
-### 🧠 2. **“Write & Water” Emotional Release Booth**
 
-- Quiet desk space with dissolvable ink (or plain paper)
-- Prompt: *“Write one thing you’re ready to let go of.”*
-- Drop it in a bowl of water
-- Watch it vanish
 
-**Works with:**
+"### 🧠 2. **“Write & Water” Emotional Release Booth**"
 
-- Teachers, teens, even parents
-- Journaling seed paper kits
+"- Quiet desk space with dissolvable ink (or plain paper)"
+"- Prompt: *“Write one thing you’re ready to let go of.”*"
+"- Drop it in a bowl of water"
+"- Watch it vanish"
 
----
+"**Works with:**"
 
-### 🎨 3. **Craft-to-Plant Workshop**
+"- Teachers, teens, even parents"
+"- Journaling seed paper kits"
 
-- Origami or bookmarks made from seed paper
-- Decorated with affirmations or gratitude notes
-- Kids take it home or plant it at school
 
-**Add-on:**
 
-- “This bookmark becomes basil.”
+"### 🎨 3. **Craft-to-Plant Workshop**"
 
----
+"- Origami or bookmarks made from seed paper"
+"- Decorated with affirmations or gratitude notes"
+"- Kids take it home or plant it at school"
 
-### 🌾 4. **From Test to Tulsi Ceremony**
+"**Add-on:**"
 
-- Take one unused/discarded test sheet
-- Symbolically “compost” it in a small school pot
-- Add soil + seed + tag: “We learn. We grow.”
-- Bonus: Pick a common herb or flower (tulsi, marigold, coriander)
+"- “This bookmark becomes basil.”"
 
----
+"### 🌾 4. **From Test to Tulsi Ceremony**"
 
-### 📣 5. **Eco Wall of Gremlin Joy™**
+"- Take one unused/discarded test sheet"
+"- Symbolically “compost” it in a small school pot"
+"- Add soil + seed + tag: “We learn. We grow.”"
+"- Bonus: Pick a common herb or flower (tulsi, marigold, coriander)"
 
-- Students contribute eco-friendly hacks in their language
-- Add gremlin-style truths like:
-    - “Didn’t print the worksheet. Still passed.”
-    - “This journal page became a tomato.”
-    - “We plant what we waste.”
 
----
 
-### 🪴 6. **Quiet Green Time**
+"### 🪴 5. **Quiet Green Time**"
 
-- No formal activity
-- Just students walking around their campus identifying:
-    - What could be reused
-    - Where something could be planted
-    - What emotions they want to compost
+"- No formal activity"
+"- Just students walking around their campus identifying:"
+    "- What could be reused"
+    "- Where something could be planted"
+    "- What emotions they want to compost"
 
-**Prompt:**
+"**Prompt:**"
 
-> “What part of school do you want to regrow differently?”")
+"> “What part of school do you want to regrow differently?”")
 
