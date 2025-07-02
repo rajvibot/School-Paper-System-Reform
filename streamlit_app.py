@@ -100,7 +100,10 @@ eco_hacks = [
        #  st.write("✅ Thank you for your idea! It’ll be compiled in our reform list.")
          #(Later you can add a Google Sheet or save to GitHub)
 
-# Initialize an empty list in session state if not already present
+
+
+import pandas as pd
+
 if "user_ideas_list" not in st.session_state:
     st.session_state.user_ideas_list = []
 
@@ -108,11 +111,15 @@ user_idea = st.text_input("💬 Got an idea for eco reform? Drop it here:")
 
 if user_idea:
     st.session_state.user_ideas_list.append(user_idea)
-    st.success("✅ Thank you for your idea! It’s been added to the reform wall.")
+    st.success("✅ Thank you! Added to the Reform Wall.")
 
-# Display all submitted ideas
 if st.session_state.user_ideas_list:
     st.markdown("### 🌿 Community Reform Wall")
     for idx, idea in enumerate(st.session_state.user_ideas_list, 1):
         st.write(f"{idx}. {idea}")
 
+    # Download option
+    if st.button("Download ideas as CSV"):
+        df = pd.DataFrame(st.session_state.user_ideas_list, columns=["Ideas"])
+        csv = df.to_csv(index=False).encode('utf-8')
+        st.download_button("Download", csv, "eco_reform_ideas.csv", "text/csv")
