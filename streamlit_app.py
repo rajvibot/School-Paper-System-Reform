@@ -143,7 +143,6 @@ st.markdown("""
 ---
 💡 **Know a school that should see this?**
 [Click to copy this link](https://school-paper-system-reform.streamlit.app) and send it their way.
----
 """)
 
 import random
@@ -187,7 +186,7 @@ eco_challenges = [
     "🌍 Tell Someone Your Earth is Cutie Too."
 ]
 
-st.markdown("### ✨ Need a micro eco-reform challenge?")
+st.markdown("--- ### ✨ Need a micro eco-reform challenge?")
 if st.button("🌿 Give me a challenge!"):
     st.info(random.choice(eco_challenges))
 
