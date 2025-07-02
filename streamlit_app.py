@@ -6,6 +6,62 @@ st.title("📄 School Paper Usage & Cost Estimator")
 
 st.markdown(""" This calculator estimates how much paper a school uses in a year, and how much it could cost — based on your input values. """)
 
+with st.sidebar:
+    st.header("🌿 Phoenix Rising")
+
+    st.markdown("""
+    ### 💬 A Note from Me
+
+    If this project speaks to your heart, I’d love to hear from you.
+
+    Your comments, reflections, and shares help this work ripple further — thank you for being here, for caring, and for imagining new ways to grow.
+
+    Let’s rise, together.
+
+    *Phoenix Rising*
+
+    ---
+
+    ### 🌍 Inspired by #GenerationRestoration
+
+    This work is a quiet tribute to the Earth — reminding us that healing happens in soft, patient cycles. As we restore ourselves, we restore the world.
+
+    ---
+
+    ### ✨ What is a Seed Paper Journal?
+
+    A **seed paper journal** is made from eco-friendly paper embedded with real seeds (marigold, basil, tulsi, etc.).
+
+    When you're done using it, you can **plant the pages** and grow 🌼🌿 — a gentle act of regeneration and hope.
+
+    It aligns deeply with *Phoenix Rising: Art for the Soul*, symbolizing rebirth and restoration.
+
+    ---
+
+    ### 🌟 Why Seed Paper Journals Matter
+
+    ✅ Fully biodegradable & zero waste  
+    ✅ Your words become growth 🌱  
+    ✅ Meaningful, mindful participation  
+    ✅ Perfect for eco-gifting, journaling, art
+
+    ---
+
+    ### 🖊️ About Sustainable Inks
+
+    Many **eco pens and seed pens** now use:
+
+    ✅ Soy/vegetable-based inks  
+    ✅ Non-toxic, biodegradable pigments  
+    ✅ Water-based, compost-safe formulations  
+    ✅ Paper barrels instead of plastic
+
+    ---
+
+    ✨ Thank you for exploring, dreaming, and restoring with us.
+    """)
+
+
 #Inputfields
 
 students = st.number_input("Number of students", value=1000, step=50) 
