@@ -20,7 +20,7 @@ with st.sidebar:
 
     If you find this work valuable, you can help keep these systems, tools, and art alive:
 
-    [💚 Buy Me a Plant](https://buymeacoffee.com/rajvimittal)
+    [💚 Buy Me a Plant](coff.ee/rajvimittal)
 
     Every small support fuels big soft revolutions. Thank you 🌱
 
