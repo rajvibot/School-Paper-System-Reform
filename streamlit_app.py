@@ -12,13 +12,19 @@ with st.sidebar:
     st.markdown("""
     ### 💬 A Note from Me
 
-    If this project speaks to your heart, I’d love to hear from you.
-
-    Your comments, reflections, and shares help this work ripple further — thank you for being here, for caring, and for imagining new ways to grow.
+    If this project speaks to your heart, I’d love to hear from you. Your comments, reflections, and shares help this work ripple further — thank you for being here, for caring, and for imagining new ways to grow.
 
     Let’s rise, together.
+    
+    ### ☕ Support This Work
 
-    *Phoenix Rising*
+    If you find this work valuable, you can help keep these systems, tools, and art alive:
+
+    [💚 Buy Me a Plant](https://buymeacoffee.com/rajvimittal)
+
+    Every small support fuels big soft revolutions. Thank you 🌱
+
+    *Rajvi Mittal (Phoenix Rising)*
 
     ---
 
@@ -33,8 +39,6 @@ with st.sidebar:
     A **seed paper journal** is made from eco-friendly paper embedded with real seeds (marigold, basil, tulsi, etc.).
 
     When you're done using it, you can **plant the pages** and grow 🌼🌿 — a gentle act of regeneration and hope.
-
-    It aligns deeply with *Phoenix Rising: Art for the Soul*, symbolizing rebirth and restoration.
 
     ---
 
