@@ -104,18 +104,18 @@ if user_idea:
 st.write
 (
 
-"## 🌱 Suggested School-Level Activities (for World Environment Day)
+"## 🌱 Suggested School-Level Activities (for World Environment Day)"
 
----
 
-### ✍️ 1. **Plant-a-Paper Challenge**
 
-- Every student brings one used sheet from their bag
-- Writes: “What I want to grow in my life”
-- Tears it up, waters it in compost trays (or garden corners)
-- Bonus: Seed paper supplied = actual plants
+"### ✍️ 1. **Plant-a-Paper Challenge**"
 
-**Tagline:**
+"- Every student brings one used sheet from their bag"
+"- Writes: “What I want to grow in my life”"
+"- Tears it up, waters it in compost trays (or garden corners)"
+"- Bonus: Seed paper supplied = actual plants"
+
+"**Tagline:**"
 
 > Let what you discard become what you grow.
 > 
