@@ -70,10 +70,11 @@ if st.button("Calculate"):
         if result_df.loc[result_df['Category'] == "Teacher Notes", "Sheets Used"].values[0] > 10000:
             st.write("🧑‍🏫 Too many lesson prints? Try reusable planning boards or shared digital notebooks.")
 
-        suggestion = st.text_input("📩 Have an idea for school reform? Type it here:")
-        if suggestion:
-         st.write("✅ Thank you for your idea! It’ll be compiled in our reform list.")
-         #(Later you can add a Google Sheet or save to GitHub)
- 
+         
     except Exception as e:
         st.error(f"Something went wrong: {e}")
+
+suggestion = st.text_input("📩 Have an idea for school reform? Type it here:")
+if suggestion:
+         st.write("✅ Thank you for your idea! It’ll be compiled in our reform list.")
+         #(Later you can add a Google Sheet or save to GitHub)
