@@ -46,6 +46,12 @@ def compute_usage():
 #st.dataframe(result_df.style.format({"Cost (INR)": "₹{:.2f}"})) 
 #st.success("Done! Scroll below to see your breakdown.")
 
+st.markdown("""
+---
+💡 **Know a school that should see this?**
+[Click to copy this link](https://school-paper-system-reform.streamlit.app) and send it their way.
+""")
+
 if st.button("Calculate"):
     try:
         result_df = compute_usage()
@@ -64,5 +70,10 @@ if st.button("Calculate"):
         if result_df.loc[result_df['Category'] == "Teacher Notes", "Sheets Used"].values[0] > 10000:
             st.write("🧑‍🏫 Too many lesson prints? Try reusable planning boards or shared digital notebooks.")
 
+        suggestion = st.text_input("📩 Have an idea for school reform? Type it here:")
+        if suggestion:
+        st.write("✅ Thank you for your idea! It’ll be compiled in our reform list.")
+        #(Later you can add a Google Sheet or save to GitHub)
+ 
     except Exception as e:
         st.error(f"Something went wrong: {e}")
