@@ -14,15 +14,15 @@ with st.sidebar:
 
     If this project speaks to your heart, I’d love to hear from you. Your comments, reflections, and shares help this work ripple further — thank you for being here, for caring, and for imagining new ways to grow.
 
-    Let’s rise, together.
+
+    ### 🪴🔗 Connect & Explore my other work
+
+    🌐 [Amarnath Yatra Safety Guide Toolkit Website](https://rajvi11.my.canva.site/amarnath-yatra-guide-safety-toolkit)  
+    ✍️ [LinkedIn](https://www.linkedin.com/in/rajvi-mittal/)  
+    🎨 [Behance](https://www.behance.net/rajvimittal1)
+    🧩 [Topmate](https://topmate.io/rajvi_mittal11)
     
-    ### ☕ Support This Work
-
-    If you find this work valuable, you can help keep these systems, tools, and art alive:
-
-    [💚 Buy Me a Plant](https://buymeacoffee.com/rajvimittal)
-
-    Every small support fuels big soft revolutions. Thank you 🌱
+    Let’s rise, together.   
 
     *Rajvi Mittal (Phoenix Rising)*
 
@@ -62,7 +62,16 @@ with st.sidebar:
 
     ---
 
-    ✨ Thank you for exploring, dreaming, and restoring with us.
+    ### ☕ Support This Work
+
+    If you want to contribut helping keep these systems, tools, and art alive:
+
+    [💚 Buy Me a Plant](https://buymeacoffee.com/rajvimittal)
+
+    Every small support fuels big soft revolutions. 🌱
+   
+    ✨ Thank you for exploring, dreaming, and restoring.
+
     """)
 
 
