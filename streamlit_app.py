@@ -179,8 +179,6 @@ st.markdown("### ✨ Need a micro eco-reform challenge?")
 if st.button("🌿 Give me a challenge!"):
     st.info(random.choice(eco_challenges))
 
-if st.button("Shuffle Wall Quote"):
-    st.rerun()
 
 #user_idea = st.text_input("🧠 Got an idea for eco reform? Drop it here:")
 #if user_idea:
