@@ -71,7 +71,7 @@ if st.button("Calculate"):
             st.write("🧑‍🏫 Too many lesson prints? Try reusable planning boards or shared digital notebooks.")
 
         suggestion = st.text_input("📩 Have an idea for school reform? Type it here:")
-          if suggestion:
+         if suggestion:
           st.write("✅ Thank you for your idea! It’ll be compiled in our reform list.")
           #(Later you can add a Google Sheet or save to GitHub)
  
